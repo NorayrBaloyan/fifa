@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 
+    border-box;
+}
+
+.wrap{
+    display: flex;
+}
+
+.full{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.empty{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 500px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+img{
+    width: 250px;
+    height: 120px ;
+}
+
+.empty img{
+    padding: 5px;
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
